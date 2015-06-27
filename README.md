@@ -2,7 +2,7 @@
 Raspberry PI 2 based Bitcoin full node
 
 ## BOM
-1. Rasbery PI 2 Model B
+1. Raspberry PI 2 Model B
 2. Chip Heatsink x2
 
 ## Hardware Installation
