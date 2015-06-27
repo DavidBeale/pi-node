@@ -43,7 +43,7 @@ sudo apt-get install dphys-swapfile
 ### NTP
 ```shell
 sudo apt-get install ntp
-sudo dkpg --reconfigure tzdata
+sudo dpkg-reconfigure tzdata
 ```
 
 ### Compile bitcoind
