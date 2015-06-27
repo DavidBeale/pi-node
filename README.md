@@ -52,9 +52,9 @@ sudo mkdir /sd/bitcoind
 sudo mkdir /sd/bitcoind/src
 sudo chown ubuntu:ubuntu /sd/bitcoind/src
 cd /sd/bitcoind/src
-wget https://github.com/bitcoin/bitcoin/archive/v0.10.0.zip  # Check for a newer version
-unzip v0.10.0.zip
-cd bitcoin-0.10.0
+wget https://github.com/bitcoin/bitcoin/archive/v0.10.2.zip  # Check for a newer version
+unzip v0.10.2.zip
+cd bitcoin-0.10.2
 ./autogen.sh
 ./configure --disable-wallet --with-incompatible-bdb
 make # This will take a long time!
