@@ -15,7 +15,7 @@ Raspberry PI 2 based Bitcoin full node
 ## Software Installation
 
 ### OS
-Ubuntu 14 Server for PI 2 [Instructions](http://blog.bobbyallen.me/2015/05/17/setting-up-and-running-a-server-with-ubuntu-server-14-04-on-raspberry-pi-2/)
+Ubuntu 14.02 Server for PI 2 [Instructions](http://blog.bobbyallen.me/2015/05/17/setting-up-and-running-a-server-with-ubuntu-server-14-04-on-raspberry-pi-2/)
 
 ### Update OS
 ```shell
