@@ -28,20 +28,22 @@ sudo apt-get upgrade
 sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
 ```
 
-### SD Card Mount
+### External UBB HDD Mount
 ```shell
-sudo mkdir /sd
-sudo mount /dev/mmcblk0p1 /sd
-sudo echo /dev/mmcblk0p1  /sd ext4  defaults  0 0 >> /etc/fstab
+sudo mkdir /hdd
+sudo mount /dev/mmcblk0p1 /hdd
+sudo echo /dev/mmcblk0p1  /hdd ext4  defaults  0 0 >> /etc/fstab
 ```
 
 ### Swap Memory
 ```shell
-sudo fallocate -l 2G /sd/swapfile
-sudo chmod 0600 /sd/swapfile
-sudo mkswap /sd/swapfile
-sudo swapon /sd/swapfile
-sudo echo /sd/swapfile none  swap  sw  0 0 >> /etc/fstab
+sudo apt-get install dphys-swapfile
+```
+
+### NTP
+```shell
+sudo apt-get install ntp
+sudo dkpg-reconfigure tzdata
 ```
 
 ### Compile bitcoind
