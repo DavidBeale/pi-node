@@ -31,8 +31,8 @@ sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config l
 ### External UBB HDD Mount
 ```shell
 sudo mkdir /hdd
-sudo mount /dev/mmcblk0p1 /hdd
-sudo echo /dev/mmcblk0p1  /hdd ext4  defaults  0 0 >> /etc/fstab
+sudo mount /dev/sda1 /hdd
+sudo echo /dev/sda1  /hdd ext4  defaults  0 0 >> /etc/fstab
 ```
 
 ### Swap Memory
