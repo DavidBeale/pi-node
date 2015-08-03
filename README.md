@@ -25,7 +25,7 @@ sudo apt-get upgrade
 
 ### Build Tools
 ```shell
-sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
+sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev
 ```
 
 ### External UBB HDD Mount
