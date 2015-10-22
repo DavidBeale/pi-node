@@ -52,7 +52,7 @@ sudo mkdir /hdd/bitcoind
 sudo mkdir /hdd/bitcoind/src
 sudo chown ubuntu:ubuntu /hdd/bitcoind/src
 cd /hdd/bitcoind/src
-wget https://github.com/bitcoin/bitcoin/archive/v0.11.0.zip  # Check for a newer version
+wget https://github.com/bitcoin/bitcoin/archive/v0.11.1.zip  # Check for a newer version
 unzip v0.11.0.zip
 cd bitcoin-0.11.0
 ./autogen.sh
