@@ -80,7 +80,7 @@ sudo nano /etc/bitcoind.conf # Edit the password to a secure one i.e. generated 
 ```shell
 sudo service bitcoind start
 sudo tail -f /var/log/upstart/bitcoind.log  # Check the service starts
-sudo tail -f /sd/bitcoind/data/debug.log # Check startup and progress - will take several hours/days to fully sync!
+sudo tail -f /hdd/bitcoind/data/debug.log # Check startup and progress - will take several hours/days to fully sync!
 ```
 ### Web Dashboard
 Install [BTCnDash](https://bitbucket.org/mattdoiron/btcndash) by following the instructions in /doc/installation.rst
