@@ -1,5 +1,5 @@
 # pi-node
-Raspberry PI 2 based Bitcoin full node
+Raspberry PI 2 based Bitcoin full node - [Live Dashboard](http://pi-node.bealearts.co.uk)
 
 ## BOM
 1. Raspberry PI 2 Model B
