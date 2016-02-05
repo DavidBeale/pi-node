@@ -1,6 +1,9 @@
 # pi-node
 Raspberry PI 2 based Bitcoin full node - [Live Dashboard](http://pi-node.bealearts.co.uk)
 
+[![Open Case](img/open-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/pi-node/master/img/open-case.jpg)
+[![Closed Case](img/closed-case-small.jpg)](https://raw.githubusercontent.com/DavidBeale/pi-node/master/img/closed-case.jpg)
+
 ## BOM
 1. Raspberry PI 2 Model B
 2. Chip Heatsink x2
